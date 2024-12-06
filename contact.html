@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Candle Bliss for any inquiries or to learn more about our products.">
+    <title>Contact Us - Candle Bliss</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Candle Bliss</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us using the form below or through our contact details!</p>
+        
+        <!-- Contact Form -->
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="contact-info">
+            <h3>Other Ways to Reach Us</h3>
+            <p>Email: <a href="mailto:info@candlebliss.com">info@candlebliss.com</a></p>
+            <p>Phone: 123-456-7890</p>
+            <p>Follow us on:</p>
+            <div class="social-media">
+                <a href="https://facebook.com/candlebliss" target="_blank">Facebook</a>
+                <a href="https://instagram.com/candlebliss" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Candle Bliss. All rights reserved.</p>
+    </footer>
+</body>
+</html>
